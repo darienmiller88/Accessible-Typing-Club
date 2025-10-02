@@ -1,10 +1,10 @@
-import mongoose, { Schema, models } from "mongoose";
+import mongoose, { Schema, models } from "mongoose"; 
 
 const LessonSchema = new Schema(
     {
-        email: String,
-        first_name: String,
-        last_name: String
+        title: String,
+        lessonCharacters: String,
+
     },
     {
         timestamps: true
