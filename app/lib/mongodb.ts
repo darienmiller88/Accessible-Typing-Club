@@ -5,8 +5,14 @@ let isConnected: boolean = false
 
 export default async function connectToMongoDB (){
     if (isConnected) {
+        console.log("Already connected!");
+        
         return;
     }
+
+    console.log(isConnected);
+    console.log("uri:", MONGODB_URI);
+    
 
     try {
         if (MONGODB_URI) {
@@ -15,6 +21,8 @@ export default async function connectToMongoDB (){
             })
 
             isConnected = true
+            console.log("connected:", isConnected);
+            
         }
 
         console.log("Connected to DB!");
