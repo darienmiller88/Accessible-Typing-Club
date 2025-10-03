@@ -1,10 +1,10 @@
 import mongoose, { Schema, models } from "mongoose";
 
 type CompletedLesson = {
-    lessonId: string,
-    isCompleted: boolean,
-    wpm: number,
-    accuracy: number
+    isCompleted: boolean
+    lessonId:    string
+    accuracy:    number
+    wpm:         number
 }
 
 const CompletedLessonSchema = new Schema<CompletedLesson>(

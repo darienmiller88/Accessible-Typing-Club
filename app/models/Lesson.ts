@@ -4,7 +4,6 @@ const LessonSchema = new Schema(
     {
         title: String,
         lessonCharacters: String,
-
     },
     {
         timestamps: true

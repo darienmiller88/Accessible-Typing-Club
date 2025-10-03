@@ -6,6 +6,11 @@ This project will be a easier to use, accessible verison of the already existing
 - Ads shrink the view, and clutter the web page
 - The indicator of which key they must currently type is also too small. 
 
+### Built with:
+- Next.js
+- MongoDB
+- Dockerfile
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
